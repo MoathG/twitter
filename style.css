@@ -1,0 +1,30 @@
+.lift {
+
+    color : white ;
+    background-color: rgb(27, 149, 224) ;
+    padding-left: 10% ;
+    height: 100vh ;
+}
+.twit {
+ font-size: 200% ;
+}
+
+.right {
+    height: 100vh ;
+    background-color: white ;
+}
+.list {
+    list-style: none;
+    padding-top: 50% ;
+    font-size: 20px ;
+}
+.s {
+  border-radius: 30px ;
+
+}
+.down{
+    padding-top: 200px ;
+    width: 60% ;
+    margin: 5% auto ;
+}
+
