@@ -53,7 +53,68 @@
     padding-top: 8px ;
     padding-left: 6px ;
 }
+.nav-item {
+    font-weight: bold ;
+}
+.home-nav{
+margin-left: 70px ;
+}
 
 .down-f {
     background-color:#fff ;
+}
+
+.search-but {
+    border-radius: 30px ;
+}
+.tweet-but {
+    border-radius: 30px ;
+    font-size: 17px ;
+    margin-right: 30px;
+}
+.user-but {
+    font-size: 30px ;
+    padding-right: 10px ;
+}
+.col-left {
+     
+    height: 100vh;
+}
+.col-med{
+     
+    height: 100vh;
+    width: 100vh ;
+}
+.col-right{
+    height: 100vh;
+
+}
+.page {
+    background-color: #e6ecf0 ;
+}
+.card-img-top{
+    height: 115px;
+}
+.card-text {
+    font-weight: bold ;
+    font-size: 20px ;
+    text-align: center
+} 
+.card-title {
+    font-weight: bold ;
+    font-size: 14px ;
+    line-height: 25px;
+}
+.text-muted{
+    font-size: 12px ;
+    color: black !important ;
+}
+.complete{
+    font-size: 12px ;
+    color: #aab8c2 ;
+}
+.button-text-area{
+    font-weight: bold ;
+    font-size: 13px ;
+    padding: 3px 11px 5px 180px ;
 }

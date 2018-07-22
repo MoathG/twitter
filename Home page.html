@@ -1,39 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>twitter</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>twitter</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#"><i class="far fa-bell"></i> Nofication</a>
-                        </li>
+
+<body class="page">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item home-nav">
+            <a class="nav-link" href="#">
+              <i class="fas fa-home"></i> Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item nof">
+            <a class="nav-link" href="#">
+              <i class="far fa-bell"></i> Nofication</a>
+          </li>
+
+          <li class="nav-item mess">
+            <a class="nav-link" href="#">
+              <i class="far fa-envelope"></i> Message</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 search-but" type="search" placeholder="Search" aria-label="Search">
+
+        </form>
+        <i class="fas fa-user-circle user-but"></i>
+        <button type="button" class="btn btn-primary tweet-but">Tweet</button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-left">
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="http://www.twitrcovers.com/wp-content/uploads/2012/09/Tokyo-City.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Mo'ath Gharib</p>
+              <div class="row">
+                <div class="col">
+                  tweets
+                  <br>
+                  <span style="color: #1DA1F2 ; font-weight: bold"> 0</span>
+                </div>
+                <div class="col">
+                  following
+                  <br>
+                  <span style="color: #1DA1F2 ; font-weight: bold"> 0</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+             <br>
+             <div class="row">
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-title">Introduce yourself</p>
+                      <p class="card-subtitle mb-2 text-muted">Describe who you are and what you're into.</p>
+                    <form>
+                      <div class="form-group">
                         
-                        <li class="nav-item">
-                          <a class="nav-link" href="#"><i class="far fa-envelope"></i> Message</a>
-                        </li>
-                      </ul>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </nav>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </form>
+                         <div class="progress">
+                           <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                           <p class="complete">80% complete</p>
+                    </div> 
+                            <div class="button-text-area">
+                              <button type="button" class="btn btn-light btn-sm">Skip</button>   
+                              <button type="button" class="btn btn-primary btn-sm">Save</button>
+                                 
+                             </div>
+                                </div>
+
+
+
+
+
+             </div>
+      </div>
+      <div class="col-med">
+        <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+      </div>
+      <div class="col col-right">
+        3 of 3
+      </div>
     </div>
 </body>
+
 </html>
